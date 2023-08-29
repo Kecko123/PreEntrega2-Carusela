@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL:wght@600&display=swap');
+
+body {
+    background-color: #5bc0be;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAVBAR/HEADER */
+.logo {
+    width: 80px;
+}
+
+header {
+    background-color: #399390;
+    border-bottom: 1px black solid;
+}
+
+.headerH1 {
+    font-family: 'Dai Banna SIL', serif;
+    font-size: 2.4em;
+}
+
+header .nav-link {
+    color: black;
+    background-color: #c2e1e0;
+}
+header .nav-link:hover {
+    background-color: #a3bebd;
+    color: black!important;
+}
+
+header .nav-item {
+    border: 1px black solid;
+}
+
+/* CARROUSEL */
+
+.carrouselSombra {
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+/* MAIN */
+.imgIndexUno {
+    border-radius: 1.5rem;
+}
+
+.parrafoUno {
+    background-color: #89D1D0;
+    border-radius: 1.5rem;
+}
+
+/* SECTION */
+
+.sectionIndex {
+    border: 1px black solid;
+    background-color: #D2D2F6;
+}
+
+.sectionIndex a {
+    font-size: 0.9em;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(36, 24, 24);
+}
+
+footer a {
+    color: white!important;
+}
+footer p {
+    color: white;
+}
