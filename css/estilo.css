@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dai+Banna+SIL:wght@600&family=Open+Sans&display=swap');
 
 body {
     background-color: #5bc0be;
@@ -27,21 +27,26 @@ header .nav-link {
     color: black;
     background-color: #c2e1e0;
 }
+
 header .nav-link:hover {
     background-color: #a3bebd;
-    color: black!important;
+    color: black !important;
 }
 
 header .nav-item {
     border: 1px black solid;
 }
 
+
+/********************INDEX*************************/
+
+
 /* CARROUSEL */
 
 .carrouselSombra {
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.64);
+-webkit-box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.64);
+-moz-box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.64);
 }
 
 
@@ -68,15 +73,35 @@ header .nav-item {
     margin-bottom: 1rem;
 }
 
+
+
+
+/*******************UBICACION**************************/
+.ubicacionMainDivUno {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ubicacionMainDivUno h2{
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.ubicacionMainDivUno p {
+    font-size: 1.12em;
+}
 /* FOOTER */
 
 footer {
-    background-color: rgb(36, 24, 24);
+    background-color: #241818;
 }
 
 footer a {
-    color: white!important;
+    color: lightgreen !important;
 }
+footer a:hover {
+    color: rgb(127, 212, 127) !important;
+}
+
 footer p {
     color: white;
 }
