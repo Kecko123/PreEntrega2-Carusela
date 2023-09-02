@@ -154,6 +154,17 @@ header .nav-item {
     border: 1px black solid;
 }
 
+.botonCerrar {
+    background-color: darkslategrey;
+    color: rgb(244, 242, 242);
+    border-radius: 2px;
+    border: 1px transparent solid;
+    padding: 0.3rem;
+}
+.botonCerrar:hover {
+    background-color: rgb(37, 62, 62);
+}
+
 
 /*******************SACAR TURNO************************/
 

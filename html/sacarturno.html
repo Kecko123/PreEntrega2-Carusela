@@ -119,8 +119,23 @@
             </div>
 
             <div class="mb-3 text-center">
-                <input class="btn botonEnviar btn-lg rounded-pill px-3" type="submit">
-                <input class="btn botonRestablecer btn-lg rounded-pill px-3" type="reset">
+                <button class="btn botonEnviar btn-lg rounded-pill px-3" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" type="button">Enviar</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog modal-sm">
+                        <div class="modal-content ">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Turno Sacado Correctamente!</h1>
+                            </div>
+                            <div class="modal-body text-center">
+                                <button type="button" class="botonCerrar" data-bs-dismiss="modal">Cerrar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn botonRestablecer btn-lg rounded-pill px-3" type="reset">Borrar</button>
             </div>
         </form>
     </main>
