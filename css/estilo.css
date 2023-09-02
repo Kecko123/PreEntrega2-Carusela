@@ -4,6 +4,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.robotoBold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
 body {
     background-color: #5bc0be;
 }
@@ -48,9 +53,9 @@ header .nav-item {
 /* CARROUSEL */
 
 .carrouselSombra {
-box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.64);
--webkit-box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.64);
--moz-box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.64);
+    box-shadow: 0px 0px 25px 6px rgba(0, 0, 0, 0.64);
+    -webkit-box-shadow: 0px 0px 25px 6px rgba(0, 0, 0, 0.64);
+    -moz-box-shadow: 0px 0px 25px 6px rgba(0, 0, 0, 0.64);
 }
 
 .flechasCarrousel {
@@ -60,7 +65,8 @@ box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.64);
 .flechasCarrouselDos {
     color: white;
 }
-.carousel{
+
+.carousel {
     padding: 0;
     margin-bottom: 3rem;
     margin-top: 3rem;
@@ -96,17 +102,17 @@ box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.64);
     margin-bottom: 5rem;
 }
 
-    .mainSN h2 {
-        font-size: 3em;
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-    }
+.mainSN h2 {
+    font-size: 3em;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
 
-    .mainSN p {
-        font-size: 1.3em;
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
+.mainSN p {
+    font-size: 1.3em;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 
 /**********************CONTACTO***************************/
 .mainContacto {
@@ -128,23 +134,44 @@ box-shadow: 0px 0px 25px 6px rgba(0,0,0,0.64);
     margin-bottom: 1rem;
 }
 
-.boton {
-    background-color: #34b2fa;
+.botonEnviar {
+    background-color: #26e10580;
     border: 1px black solid;
 }
-    .boton:hover {
-        background-color: #31a5e8;
-        border: 1px black solid;
-    }
+
+.botonEnviar:hover {
+    background-color: #20bc04aa;
+    border: 1px black solid;
+}
+
+.botonRestablecer {
+    background-color: #d7050580;
+    border: 1px black solid;
+}
+
+.botonRestablecer:hover {
+    background-color: #be0505aa;
+    border: 1px black solid;
+}
 
 
-    
+/*******************SACAR TURNO************************/
+
+.mainST {
+    background-color: #98b8b7;
+    border: 2px rgb(18, 18, 18) solid;
+    border-radius: 2rem;
+}
+
+
+
+
 /*******************UBICACION**************************/
 .ubicacionMainDivUno {
     font-family: 'Open Sans', sans-serif;
 }
 
-.ubicacionMainDivUno h2{
+.ubicacionMainDivUno h2 {
     font-size: 3em;
     font-weight: 600;
 }
@@ -164,6 +191,7 @@ footer {
 footer a {
     color: lightgreen !important;
 }
+
 footer a:hover {
     color: rgb(127, 212, 127) !important;
 }
@@ -171,4 +199,3 @@ footer a:hover {
 footer p {
     color: white;
 }
-
